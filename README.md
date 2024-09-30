@@ -46,6 +46,10 @@ npm install
 Per avviare l'applicazione demo e visualizzare i componenti:
 
 ```bash
+ng build ui-kit-abl --watch
+```
+
+```bash
 ng serve demo-app --port=4200
 
 ```
