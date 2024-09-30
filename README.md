@@ -47,7 +47,11 @@ Per avviare l'applicazione demo e visualizzare i componenti:
 
 ```bash
 ng serve demo-app --port=4200
+
 ```
+
+![Esempio di Immagine](assets/example.png)
+
 
 Ora puoi visitare `http://localhost:4200` nel tuo browser per vedere l'app demo.
 
