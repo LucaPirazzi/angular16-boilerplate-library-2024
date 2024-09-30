@@ -1,4 +1,11 @@
-<div class="hello-ui-kit">
-    <h1>{{ message }}</h1>
+<div class="d-flex justify-content-center align-items-center vh-100">
+  <div class="card welcome-card shadow-sm text-center">
+    <div class="card-body p-5 shadow-custom">
+      <img [src]="img"  alt="Icona" class="icon" />
+      <h5 class="card-title font-weight-bold d-flex align-items-center justify-content-center mt-3">
+        {{title}}
+      </h5>
+      <p class="card-text text-muted">{{message}}</p>
+    </div>
   </div>
-  
+</div>

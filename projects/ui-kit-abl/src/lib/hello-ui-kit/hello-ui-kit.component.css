@@ -1,7 +1,25 @@
-.hello-ui-kit {
-    text-align: center;
-    margin: 20px;
-    font-family: Arial, sans-serif;
-    color: #007bff;
-  }
-  
+
+.welcome-card {
+    margin-top: 50px;
+    width: 700px;
+    border: none;
+}
+
+.shadow-custom {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  border-radius: 10px;
+}
+
+.card-title {
+    font-size: 3rem;
+}
+
+.card-text {
+    font-size: 1.5rem;
+}
+
+.icon {
+  width: 70px;
+  height: auto;
+}
+
