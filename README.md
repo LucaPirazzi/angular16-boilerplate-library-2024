@@ -26,6 +26,10 @@ Prima di iniziare, assicurati di avere installato le seguenti dipendenze:
 
 - **Node.js**: 18.17.0
 - **Angular CLI**: 16.2.0
+- **bootstrap**: "^5.3.3" (nelle peerDependencies)
+- **popperjs/core**: "^2.11.8"
+
+**NB**: puoi sostituire la libreria UI con quello che preferisci, nel nostro componente di esempio abbiamo utilizzato Bootstrap.
 
 ## Come iniziare
 
