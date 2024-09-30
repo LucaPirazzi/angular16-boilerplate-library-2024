@@ -50,7 +50,7 @@ ng serve demo-app --port=4200
 
 ```
 
-![Esempio di Immagine](assets/example.png)
+![Esempio di Immagine](assets/start-app.png)
 
 
 Ora puoi visitare `http://localhost:4200` nel tuo browser per vedere l'app demo.
