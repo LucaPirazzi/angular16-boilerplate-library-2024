@@ -1,6 +1,6 @@
 {
   "name": "ui-kit-abl",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "peerDependencies": {
     "@angular/common": "^16.2.0",
     "@angular/core": "^16.2.0"
@@ -8,5 +8,13 @@
   "dependencies": {
     "tslib": "^2.3.0"
   },
-  "sideEffects": false
+  "sideEffects": false,
+  "keywords": [
+    "angular",
+    "ui-kit",
+    "components",
+    "library",
+    "ui",
+    "frontend"
+  ]
 }
