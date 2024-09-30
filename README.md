@@ -1,27 +1,72 @@
-# RCUIKIT
+# UI Kit LP Abl Components
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.16.
+Benvenuti nella libreria **UI Kit LP Abl Components**! Questa libreria Angular contiene una raccolta di componenti riutilizzabili per la creazione di interfacce utente. La libreria è affiancata da una demo app che permette di visualizzare i componenti in azione e testare le modifiche in tempo reale durante lo sviluppo.
 
-## Development server
+NB: Questo è un boilerplate di una Libreria Angular che contiene un solo componente di Benvenuto.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Struttura del progetto
 
-## Code scaffolding
+La struttura del progetto è organizzata come segue:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```
+/project
+  ├── /ui-kit-abl  # Libreria Angular con tutti i componenti
+  └── /demo-app                 # Applicazione demo per testare i componenti
+```
 
-## Build
+### Cartella `project/ui-kit-abl`
+Questa cartella contiene tutti i componenti della libreria **UI Kit LP Abl Components**. Ogni componente è progettato per essere modulare e riutilizzabile all'interno di applicazioni Angular.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Cartella `project/demo-app`
+La cartella `project/demo-app` contiene un'applicazione Angular che viene utilizzata per testare i componenti della libreria. Puoi usare questa applicazione per vedere le modifiche ai componenti in tempo reale mentre lavori sulla libreria.
 
-## Running unit tests
+## Requisiti
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Prima di iniziare, assicurati di avere installato le seguenti dipendenze:
 
-## Running end-to-end tests
+- **Node.js**: 18.17.0
+- **Angular CLI**: 16.2.0
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Come iniziare
 
-## Further help
+Segui questi passi per avviare il progetto:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### 1. Installazione delle dipendenze
+Dopo aver clonato il repository, installa tutte le dipendenze necessarie:
+
+```bash
+npm install
+```
+
+### 2. Avvio della demo-app
+Per avviare l'applicazione demo e visualizzare i componenti:
+
+```bash
+ng serve demo-app --port=4200
+```
+
+Ora puoi visitare `http://localhost:4200` nel tuo browser per vedere l'app demo.
+
+### 3. Modifica e build della libreria
+Per modificare i componenti della libreria e vedere le modifiche in tempo reale nella demo-app, utilizza il seguente comando per costruire la libreria in modalità **watch**:
+
+```bash
+ng build ui-kit-abl --watch
+```
+
+Questo comando compila la libreria e tiene traccia delle modifiche, così ogni modifica ai componenti verrà automaticamente riflessa nell'app demo.
+
+## Comandi utili
+
+### Build della libreria
+Per effettuare una build manuale della libreria, puoi eseguire il seguente comando:
+
+```bash
+ng build ui-kit-abl
+```
+
+## Struttura della libreria
+
+I componenti della libreria sono situati nella cartella `project/ui-kit-abl`. Ogni componente è strutturato in moduli separati, facilitando l'importazione e l'utilizzo selettivo dei componenti all'interno di altre applicazioni Angular.
+
+Grazie per aver utilizzato la libreria **UI Kit LP Abl Components**!

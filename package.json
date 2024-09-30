@@ -1,14 +1,20 @@
 {
-  "name": "rc-ui-kit",
-  "version": "0.0.0",
+  "name": "ui-kit-abl",
+  "version": "0.0.3",
+  "description": "Test library for Ui Kit Abl Components",
+  "main": "bundles/ui-kit-abl.umd.js",
+  "module": "fesm2015/ui-kit-abl.js",
+  "es2015": "fesm2015/ui-kit-abl.js",
+  "esm2015": "esm2015/ui-kit-abl.js",
+  "typings": "ui-kit-abl.d.ts",
+  "private": false,
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --port=4200",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "^16.2.0",
     "@angular/common": "^16.2.0",
@@ -18,11 +24,13 @@
     "@angular/platform-browser": "^16.2.0",
     "@angular/platform-browser-dynamic": "^16.2.0",
     "@angular/router": "^16.2.0",
+    "@popperjs/core": "^2.11.8",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.13.0"
   },
   "devDependencies": {
+    "@angular-devkit/build-angular": "^16.2.16",
     "@angular/cli": "^16.2.16",
     "@angular/compiler-cli": "^16.2.0",
     "@types/jasmine": "~4.3.0",
@@ -32,6 +40,16 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
+    "ng-packagr": "^16.2.0",
     "typescript": "~5.1.3"
-  }
+  },
+  "peerDependencies": {
+    "bootstrap": "^5.3.3"
+  },
+  "keywords": [
+    "angular",
+    "library",
+    "components"
+  ],
+  "license": "MIT"
 }
