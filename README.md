@@ -1,6 +1,6 @@
-# UI Kit LP Abl Components
+# UI Kit Abl Components
 
-Benvenuti nella libreria **UI Kit LP Abl Components**! Questa libreria Angular contiene una raccolta di componenti riutilizzabili per la creazione di interfacce utente. La libreria è affiancata da una demo app che permette di visualizzare i componenti in azione e testare le modifiche in tempo reale durante lo sviluppo.
+Benvenuti nella libreria **UI Kit Abl Components**! Questa libreria Angular contiene una raccolta di componenti riutilizzabili per la creazione di interfacce utente. La libreria è affiancata da una demo app che permette di visualizzare i componenti in azione e testare le modifiche in tempo reale durante lo sviluppo.
 
 NB: Questo è un boilerplate di una Libreria Angular che contiene un solo componente di Benvenuto.
 
@@ -15,7 +15,7 @@ La struttura del progetto è organizzata come segue:
 ```
 
 ### Cartella `project/ui-kit-abl`
-Questa cartella contiene tutti i componenti della libreria **UI Kit LP Abl Components**. Ogni componente è progettato per essere modulare e riutilizzabile all'interno di applicazioni Angular.
+Questa cartella contiene tutti i componenti della libreria **UI Kit Abl Components**. Ogni componente è progettato per essere modulare e riutilizzabile all'interno di applicazioni Angular.
 
 ### Cartella `project/demo-app`
 La cartella `project/demo-app` contiene un'applicazione Angular che viene utilizzata per testare i componenti della libreria. Puoi usare questa applicazione per vedere le modifiche ai componenti in tempo reale mentre lavori sulla libreria.
@@ -122,4 +122,4 @@ npm install ui-kit-abl
 Per ulteriori dettagli sull'uso della libreria, consulta il file `README.md` all'interno della cartella `project/ui-kit-abl`.
 
 
-Grazie per aver utilizzato la libreria **UI Kit LP Abl Components**!
+Grazie per aver utilizzato la libreria **UI Kit Abl Components**!
