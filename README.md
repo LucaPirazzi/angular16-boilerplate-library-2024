@@ -2,11 +2,13 @@
 
 Benvenuti nella libreria **UI Kit Abl Components**! Questa libreria Angular è configurata per contenere una raccolta di componenti riutilizzabili per la creazione di interfacce utente. La libreria è affiancata da una demo app che permette di visualizzare i componenti in azione e testare le modifiche in tempo reale durante lo sviluppo.
 
+---------------------------------------
 **NB**: Questo è un boilerplate di una Libreria Angular che contiene un solo componente di Benvenuto.
 
-**NB**: Sostituisci il nome della libreria 'ui-kit-abl' con quello che preferisci, prima di pubblicare su NPM per non avere conflitti.
+**NB**: Sostituisci il nome della libreria 'ui-kit-abl' con quello che preferisci prima di pubblicare su NPM per non avere conflitti.
 
 La dispostrazione di pubblicazione su NPM è disponibile **QUI**: https://www.npmjs.com/package/ui-kit-abl.
+---------------------------------------
 
 ## Struttura del progetto
 
