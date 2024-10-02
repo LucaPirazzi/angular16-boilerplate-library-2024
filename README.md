@@ -7,7 +7,7 @@ Benvenuti nella libreria **UI Kit Abl Components**! Questa libreria Angular è c
 
 **NB**: Sostituisci il nome della libreria 'ui-kit-abl' con quello che preferisci prima di pubblicare su NPM per non avere conflitti.
 
-**NB**: La dispostrazione di pubblicazione su NPM è disponibile **QUI**: https://www.npmjs.com/package/ui-kit-abl.
+**NB**: La dimostrazione di pubblicazione su NPM è disponibile **QUI**: https://www.npmjs.com/package/ui-kit-abl.
 ---------------------------------------
 
 ## Struttura del progetto
