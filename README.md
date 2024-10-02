@@ -134,7 +134,7 @@ Assicurati che il tuo file `package.json` contenga tutte le informazioni necessa
 Dopo la pubblicazione, puoi installare la tua libreria in un nuovo progetto Angular utilizzando npm. Esegui il seguente comando nel terminale del nuovo progetto:
 
 ```bash
-npm install ui-kit-abl ('Sostituisci con il nome che hai dato alla tua libreria')
+npm install ui-kit-abl
 ```
 
 ### Nota
