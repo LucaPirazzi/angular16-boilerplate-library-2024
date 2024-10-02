@@ -125,7 +125,8 @@ Ora puoi pubblicare la tua libreria su npm con il seguente comando:
 npm publish
 ```
 
-Assicurati che il tuo file `package.json` contenga tutte le informazioni necessarie (nome, versione, keywords, etc.) prima di pubblicare.
+Assicurati che il tuo file `package.json` contenga tutte le informazioni necessarie (nome, versione, keywords, etc.) prima di pubblicare. Ad ogni pubblicazione è necessario aggiornare il numero della versione, diversamente, la pubblicazione NPM andrà in errore.
+**Esempio**: (Pubblicazione 1): versione: 1.0.1, (Pubblicazione 2): versione: 1.0.2.
 
 ### 5. Installazione della Libreria in un Nuovo Progetto
 
