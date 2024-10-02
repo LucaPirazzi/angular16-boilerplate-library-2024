@@ -1,5 +1,7 @@
 # Guida all'Installazione della Libreria ui-kit-abl
 
+**NB**: Questa è solo una dismostrazione della pubblicazione di una libreria, il repository del boilerplate che ha generato questa libreria è disponibile **QUI**: https://github.com/LucaPirazzi/angular16-boilerplate-library-2024.
+
 Questa guida ti accompagnerà attraverso i passaggi necessari per installare e utilizzare la libreria `ui-kit-abl` in un nuovo progetto Angular.
 
 | Package                         | Version   |
